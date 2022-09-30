@@ -1,3 +1,6 @@
+@import url('./app.css');
+@import url('./sounds.css');
+
 :root {
   --text: #f5f6fa;
   --red: #cb405c;

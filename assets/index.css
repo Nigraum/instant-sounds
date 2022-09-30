@@ -14,3 +14,7 @@ body {
   background: radial-gradient(circle, var(--red) 0%, var(--red-dark) 100%);
 }
 
+body, button {
+  color: var(--text);
+  font: 400 1rem 'Lato', sans-serif;
+}

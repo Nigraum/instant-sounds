@@ -23,6 +23,11 @@
   font-weight: 700;
 }
 
+.sounds button:hover {
+  cursor: pointer;
+  background: var(--red-dark);
+}
+
 .sounds button label {
   flex: 1;
 }

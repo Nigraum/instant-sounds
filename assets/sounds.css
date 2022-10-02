@@ -21,11 +21,12 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
+  transition: background 0.4;
 }
 
 .sounds button:hover {
   cursor: pointer;
-  background: var(--red-dark);
+  background: var(--red-dark); 
 }
 
 .sounds button label {

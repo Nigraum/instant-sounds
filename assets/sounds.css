@@ -22,3 +22,7 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.sounds button label {
+  flex: 1;
+}

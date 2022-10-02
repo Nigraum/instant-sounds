@@ -6,6 +6,19 @@
   gap: 32px;
 }
 
-.sounds li {
-
+.sounds button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(138, 0, 19, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 6px rgba(64, 0, 13, 0.60);
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  font: 1.25rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
 }

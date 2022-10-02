@@ -30,6 +30,7 @@
 
 .sounds button label {
   flex: 1;
+  pointer-events: none;
 }
 
 .sounds button span {

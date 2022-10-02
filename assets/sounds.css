@@ -21,7 +21,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-  transition: background 0.4;
+  transition: background 0.4s;
 }
 
 .sounds button:hover {

@@ -1,3 +1,11 @@
 .sounds {
-  margin: auto o;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin: auto 0;
+  gap: 32px;
+}
+
+.sounds li {
+
 }

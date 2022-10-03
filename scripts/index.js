@@ -1,7 +1,11 @@
 let sounds = []
 
 function onSound(index) {
-  console.log('tocar o som', index)
+  const pathSound = sounds[index].path
+
+  const sound = new Audio(pathSound)
+
+  sound.play()
 }
 
 fetch('../sounds.json').then(response => response.json()).then(data => {

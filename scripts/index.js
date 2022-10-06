@@ -17,7 +17,9 @@ function onSound(soundIndex) {
 }
 
 document.addEventListener('keydown', ({ key }) => {
-  const soundIndex 
+  const soundIndex = sounds.findIndex(sound => sound.hotkey === key)
+
+  console.log(soundIndex)
 })
 
 fetch('../sounds.json').then(response => response.json()).then(data => {

@@ -16,8 +16,8 @@ function onSound(index) {
   sound.play()
 }
 
-document.addEventListener('keydown', (result) => {
-  console.log(result)
+document.addEventListener('keydown', ({ key }) => {
+  console.log(key)
 })
 
 fetch('../sounds.json').then(response => response.json()).then(data => {

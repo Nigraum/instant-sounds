@@ -2,14 +2,14 @@ let sounds = []
 
 let soundsCache = new Map()
 
-function onSound(index) {
-  const pathSound = sounds[index].path
+function onSound(soundIndex) {
+  const soundPath = sounds[soundIndex].path
 
-  let sound = soundsCache.get(index)
+  let sound = soundsCache.get(soundIndex)
   
   if(!sound) {
-    sound = new Audio(pathSound)
-    soundsCache.set(index, sound)
+    sound = new Audio(soundPath)
+    soundsCache.set(soundIndex, sound)
   }
   
   sound.currentTime = 0
@@ -17,7 +17,7 @@ function onSound(index) {
 }
 
 document.addEventListener('keydown', ({ key }) => {
-  console.log(key)
+  const soundIndex 
 })
 
 fetch('../sounds.json').then(response => response.json()).then(data => {

@@ -1,9 +1,13 @@
 let sounds = []
 
+let soundsCache = new Map()
+
 function onSound(index) {
   const pathSound = sounds[index].path
 
   const sound = new Audio(pathSound)
+
+  soundsCache.set(index, sound)
 
   sound.play()
 }
